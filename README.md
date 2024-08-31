@@ -5,4 +5,5 @@ Code is under develoment!
 
 Just enter MQTT server data and send CONSUMPTION, TOTAL_IMPORT in Wh and TOTAL_EXPORT in Wh to the configured topics.
 
-Was tested with fronius gen24 as primary counter
+Testet with Python 3.12
+Docker compose opltional
