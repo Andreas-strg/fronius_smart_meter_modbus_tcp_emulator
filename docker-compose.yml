@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  froniussimulator:
+    image: froniussimulator
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    ports:
+      - 5222:5222 #(Port über 5000 um sudo zu umgehen)
