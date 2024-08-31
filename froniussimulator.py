@@ -5,6 +5,7 @@ information to inverters (e.g. Gen24).
 Necessary information is provied via MQTT and translated to MODBUS TCP
 
 Based on
+https://github.com/tichachm/fronius_smart_meter_modbus_tcp_emulator
 https://www.photovoltaikforum.com/thread/185108-fronius-smart-meter-tcp-protokoll
 
 """
